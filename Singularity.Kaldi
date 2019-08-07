@@ -15,4 +15,4 @@ From:ubuntu:latest
 		git clone https://github.com/alumae/kaldi-gstreamer-server
 		
 %runscript
-        echo "Running OCR. Output in file outputs/output.txt"
+        echo "sRunning OCR. Output in file outputs/output.txt"
