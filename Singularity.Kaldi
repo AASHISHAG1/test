@@ -15,6 +15,7 @@ From:ubuntu:latest
 		pip install --upgrade ws4py==0.3.2 pyyaml tornado
 		pip3 install sox python_speech_features pyxdg bs4 six requests tables attrdict setuptools librosa soundfile flask wave soundfile flask_cors
 		npm update -all
+		npm i -g @angular/cli
 		
 %runscript
         echo "Successfully installed the dependencies."
