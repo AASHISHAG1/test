@@ -1,0 +1,18 @@
+Bootstrap:docker
+From:ubuntu:latest
+
+%labels
+        MAINTAINER Agarwal-Aashish
+
+%environment
+        export LANGUAGE=en_US.UTF-8
+        export LANG=en_US.UTF-8
+        export LC_ALL=en_US.UTF-8
+
+%post
+        apt-get update
+		apt-get install -y git
+		git clone https://github.com/alumae/kaldi-gstreamer-server
+		
+%runscript
+        echo "Running OCR. Output in file outputs/output.txt"
