@@ -16,8 +16,9 @@ From:ubuntu:latest
 		pip3 install sox python_speech_features pyxdg bs4 six requests tables attrdict setuptools librosa soundfile flask wave soundfile flask_cors
 		curl -sL https://deb.nodesource.com/setup_12.x | bash -
 		apt-get install nodejs
-		npm install -g @angular/cli@latest --save-dev
+		npm install -g @angular/cli@latest
 		npm install --save-dev @angular-devkit/build-angular
+		npm install @angular-devkit/core --save-dev
 		
 %runscript
         echo "Successfully installed the dependencies.,"
