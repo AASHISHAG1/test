@@ -17,6 +17,7 @@ From:ubuntu:latest
 		curl -sL https://deb.nodesource.com/setup_12.x | bash -
 		apt-get install nodejs
 		npm install -g @angular/cli
+		npm install --save-dev @angular-devkit/build-angular
 		
 %runscript
         echo "Successfully installed the dependencies.,"
