@@ -23,4 +23,4 @@ From:ubuntu:latest
 		npm install @angular-devkit/core --save-dev
 		
 %runscript
-        echo "Successfully installed the dependencies.,"
+        echo "Successfully installed the dependencies."
